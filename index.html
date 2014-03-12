@@ -1,0 +1,34 @@
+<!--
+PROJECT OVERVIEW
+Youtube’s servers are manufacturing uploaded video that outpaces actual
+time by 6,000 times.  That means you would need 6,000 days to watch all
+the video uploaded today.  If you watched Youtube videos for your ENTIRE
+life (24×7), you’d only be able to watch a little over 4 days worth of
+uploads.
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Youtube Uploads Pace</title>
+	<xml:namespace id="xml" ns="urn:schemas-microsoft-com:vml" prefix="v" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/library.js"></script>
+	<script type="text/javascript" src="js/clock.js"></script>
+</head>
+
+<body onload="start()">
+
+	<div id="legend">Actual Time vs. Youtube Upload Pace</div>
+	<canvas id="canvas" height="200" width="200"></canvas>
+	<div id="canvas_div"></div>
+	
+	<canvas id="canvas2" height="200" width="200"></canvas>
+	<div id="canvas_div2"></div>
+    
+</body>
+</html>
+
